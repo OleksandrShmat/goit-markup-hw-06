@@ -47,8 +47,6 @@ input {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-  padding-top: 12px;
-  padding-bottom: 12px;
 }
 
 .container-header {
@@ -138,7 +136,7 @@ input {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/img-title1x-min.jpg);
+    url(../images/office-mob1x.jpg);
   background-size: cover;
   padding-top: 72px;
   padding-bottom: 72px;
@@ -152,12 +150,12 @@ input {
 @media (max-width: 767px) and (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .hero {
+  .title {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/img-title2x-min.jpg);
+      url(../images/office-mob2x.jpg);
   }
 }
 
@@ -417,17 +415,7 @@ input {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
-  padding: 32px;
-}
-
-.advantages {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  text-align: left;
-  color: #2e2f42;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
+  padding: 16px;
 }
 
 .description-product {
@@ -494,10 +482,6 @@ input {
   margin-left: auto;
 }
 
-.footer-form {
-  width: 288px;
-}
-
 .form-text {
   display: block;
   font-weight: 500;
@@ -521,7 +505,7 @@ input {
   padding: 8px 16px;
   border: 1px solid #fff;
   border-radius: 4px;
-  width: 264px;
+  width: 288px;
   height: 40px;
   font-size: 12px;
   line-height: 2;
@@ -1026,7 +1010,7 @@ input {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/img-title1x-min.jpg);
+      url(../images/office-table1x.jpg);
     padding-top: 112px;
     padding-bottom: 112px;
     max-width: 768px;
@@ -1035,12 +1019,12 @@ input {
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .hero {
+    .title {
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/mobDark-bg2x-min.jpg);
+        url(../images/office-table2x.jpg);
     }
   }
 
@@ -1129,7 +1113,7 @@ input {
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
-    column-gap: 0;
+    gap: 72px 24px;
     width: 584px;
   }
 
@@ -1142,10 +1126,6 @@ input {
     width: 264px;
   }
 
-  .container-footer-links {
-    margin-right: 80px;
-  }
-
   .footer-links {
     text-align: left;
   }
@@ -1155,7 +1135,6 @@ input {
   }
 
   .footer-form {
-    width: 453px;
     height: 80px;
     display: flex;
     flex-direction: column;
@@ -1357,7 +1336,7 @@ input {
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .hero {
+    .title {
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
